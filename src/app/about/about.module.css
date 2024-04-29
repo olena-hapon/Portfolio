@@ -1,0 +1,165 @@
+.motionWrapper {
+  padding-block-start: 90px;
+  height: 100%;
+ 
+}
+
+.container {
+  width: 100vw;
+  height: 100%;
+  overflow: scroll;
+  display: flex;
+
+  @media(min-width: 2100px) {
+    max-width: 2100px;
+    margin: 0 auto;
+  }
+}
+
+.textContainer {
+  padding: 190px;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+  width: 50%;
+
+  @media(max-width: 1380px) {
+    padding-inline-start: 20px;
+    padding-inline-end: 0px;
+  }
+
+  @media(max-width: 1000px) {
+    padding: 12px;
+  }
+
+  @media(max-width: 800px) {
+    width: 66.66%;
+  }
+
+  @media(max-width: 640px) {
+    padding-inline-start: 16px;
+    width: 90%;
+  }
+}
+
+.svgImg {
+  width: 33.33%;
+  position: sticky;
+  top: 0;
+
+  @media (min-width: 1280px) {
+    width: 50%;
+  }
+
+  @media(max-width: 800px) {
+    width: 33.3%;
+  }
+
+  @media(max-width: 640px) {
+    display: none;
+  }
+}
+
+.title {
+  color: #4b1f59;
+  /* color: rgb(50 172 23); */
+  font-size: 28px;
+}
+
+.text {
+  color: #000;
+}
+
+.biography {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skillsWrap {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.skill {
+  padding:10px;
+  border-radius: 10px;
+  background-color: #4b1f59;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.skill:hover {
+  background-color: #fff;
+  color: #af69f0bd;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.list {
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+}
+
+.item {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.itemTitle {
+  font-size: 18px;
+  color: #4b1f59;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #af69f045;
+  padding: 20px;
+  text-align: center;
+}
+
+.lineWrap {
+  width: 16.66%;
+  /* background-color: #884a9a; */
+  display: flex;
+  justify-content: center;
+}
+
+.line {
+  width: 4px;
+  height: 100%;
+  background-color: #4b1f59;
+  
+  position: relative;
+}
+
+.circle {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: -8px;
+  border: 2px solid #4b1f59;
+}
