@@ -15,7 +15,7 @@ export default function Home() {
       <div className={styles.wrapper}>
       {/* IMAGE CONTAINER */}
       <div className={styles.imgContainer} >
-        <Image src='/7083598.jpg' alt='girl' sizes='100%' fill />
+        <Image src='./7083598.jpg' alt='girl' sizes='100%' fill />
       </div>
 
       {/* TEXT CONTAINER */}

@@ -11,7 +11,7 @@ const items = [
     color: 'from-red-300 to-blue-300',
     title: 'React Phone Catalog',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus necessitatibus reprehenderit officia distinctio id accusantium eos assumenda corporis. Suscipit aliquam nobis provident neque enim? Dicta doloribus corporis recusandae dolores esse',
-    img: '/react-store.png',
+    img: './react-store.png',
     link: 'https://olena-hapon.github.io/react_phone-catalog/',
   },
   {
@@ -19,7 +19,7 @@ const items = [
     color: 'from-blue-300 to-violet-300',
     title: 'React Desire Store',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus necessitatibus reprehenderit officia distinctio id accusantium eos assumenda corporis. Suscipit aliquam nobis provident neque enim? Dicta doloribus corporis recusandae dolores esse',
-    img: '/desire.png',
+    img: './desire.png',
     link: 'https://olena-hapon.github.io/desire-store/',
   },
   {
@@ -27,7 +27,7 @@ const items = [
     color: 'from-violet-300 to-purple-300',
     title: 'Dia',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus necessitatibus reprehenderit officia distinctio id accusantium eos assumenda corporis. Suscipit aliquam nobis provident neque enim? Dicta doloribus corporis recusandae dolores esse',
-    img: '/dia.png',
+    img: './dia.png',
     link: 'https://olena-hapon.github.io/layout_dia/',
   },
   {
@@ -35,7 +35,7 @@ const items = [
     color: 'from-purple-300 to-red-300',
     title: 'React Todo App',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus necessitatibus reprehenderit officia distinctio id accusantium eos assumenda corporis. Suscipit aliquam nobis provident neque enim? Dicta doloribus corporis recusandae dolores esse',
-    img: '/todoApp.png',
+    img: './todoApp.png',
     link: 'https://olena-hapon.github.io/react_todo-app/',
   },
   {
@@ -43,7 +43,7 @@ const items = [
     color: 'from-red-300 to-blue-300',
     title: 'Miami',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus necessitatibus reprehenderit officia distinctio id accusantium eos assumenda corporis. Suscipit aliquam nobis provident neque enim? Dicta doloribus corporis recusandae dolores esse',
-    img: '/miami.png',
+    img: './miami.png',
     link: 'https://olena-hapon.github.io/layout_miami/',
   },
   {
@@ -51,7 +51,7 @@ const items = [
     color: 'from-red-300 to-blue-300',
     title: 'Game 2048',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus necessitatibus reprehenderit officia distinctio id accusantium eos assumenda corporis. Suscipit aliquam nobis provident neque enim? Dicta doloribus corporis recusandae dolores esse',
-    img: '/game2048.png',
+    img: './game2048.png',
     link: 'https://olena-hapon.github.io/js_2048_game/',
   }
 ]
