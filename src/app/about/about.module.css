@@ -17,7 +17,7 @@
 }
 
 .textContainer {
-  padding: 190px;
+  padding: 150px;
   max-width: 1440px;
   margin: 0 auto;
   display: flex;
@@ -64,12 +64,13 @@
 
 .title {
   color: #4b1f59;
-  /* color: rgb(50 172 23); */
   font-size: 28px;
 }
 
 .text {
-  color: #000;
+  color: #4b1f59;
+  line-height: 1.5;
+  font-size: 16px;
 }
 
 .biography {
@@ -123,7 +124,7 @@
 }
 
 .item {
-  width: 30%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -162,4 +163,8 @@
   position: absolute;
   left: -8px;
   border: 2px solid #4b1f59;
+}
+
+.desc {
+  padding-block-end: 20px;
 }

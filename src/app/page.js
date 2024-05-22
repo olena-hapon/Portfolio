@@ -3,6 +3,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import { motion } from 'framer-motion';
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -21,11 +22,15 @@ export default function Home() {
       {/* TEXT CONTAINER */}
       <div className={styles.textContainer}>
         <h1 className={styles.title}>Hi, I'm Olena!</h1>
-        <h2 className={styles.title}>I'm a  Frontend Developer.</h2>
-        <h3 className={styles.desc}>My portrfolio is not so big, but show cases a diverse collection of my projects.</h3>
+        <h1 className={styles.title}>I'm a  Frontend Developer.</h1>
+        <h3 className={styles.desc}>My portrfolio is not so big, but showcases a diverse collection of projects.</h3>
         <div className={styles.buttons}>
-          <button className={styles.button}>View My Work</button>
-          <button className={styles.button}>Contact Me</button>
+          <button className={styles.button}>
+            <Link href={'/portfolio'}>View My Work</Link>
+          </button>
+          <button className={styles.button}>
+            <Link href={'/contact'}>Contact me</Link>
+          </button>
         </div>
       </div>
     </div>

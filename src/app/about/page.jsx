@@ -31,9 +31,9 @@ const About = () => {
         <div className={styles.textContainer}>
           {/* CONTAINER TEXT */}
           <div className={styles.biography}>
-            <h1 className={styles.title}>Biography</h1>
+            <h1 className={styles.title}>About me</h1>
             <p className={styles.text}>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro aut velit dignissimos, hic facilis est doloremque ipsa! Nemo voluptate assumenda perferendis, fugit quibusdam inventore iure possimus est, voluptas qui dicta?
+              I'm Frontend Developer with strong knowledge in HTML, JavaScript, CSS, SCSS, library React, state manager Redux, Redux Toolkit. Created multiple responsive websites for mobile and desktop devices. Successfully integrated websites with APIs. Employed version control systems such as Git. Aiming to take on new challenges and utilize my coding and debugging skills for developing new features and improve the overall user experience.
            </p>
           </div>
 
@@ -57,14 +57,14 @@ const About = () => {
               <div className={styles.skill}>CSS</div>
               <div className={styles.skill}>SCSS</div>
               <div className={styles.skill}>React</div>
-              <div className={styles.skill}>Next</div>
+              <div className={styles.skill}>Next.JS</div>
               <div className={styles.skill}>Redux</div>
               <div className={styles.skill}>TypeScript</div>
-              <div className={styles.skill}>JavaScript</div>
-              <div className={styles.skill}>JavaScript</div>
-              <div className={styles.skill}>JavaScript</div>
-              <div className={styles.skill}>JavaScript</div>
-              <div className={styles.skill}>JavaScript</div>
+              <div className={styles.skill}>Responsibility</div>
+              <div className={styles.skill}>Redux Toolkit</div>
+              <div className={styles.skill}>Figma</div>
+              <div className={styles.skill}>API</div>
+              <div className={styles.skill}>GIT</div>
             </motion.div>
           </div>
 
@@ -75,7 +75,7 @@ const About = () => {
               animate={ isExperienceRefInView ? {x:0} : {}}
               transition={{ delay: 0.2 }}
             >
-              Experience
+              My works
             </h1>
             <motion.div
               className={styles.list}
@@ -88,8 +88,8 @@ const About = () => {
               <div className={styles.listItem}>
                 {/* Left */}
                 <div className={styles.item}>
-                  <h3 className={styles.itemTitle}>Lorem</h3>
-                  <div className={styles.desc}> Lorem lorem lorem lorem Lorem lorem lorem lorem </div>
+                  <h3 className={styles.itemTitle}>React Desire store</h3>
+                  <div className={styles.desc}> React, JavaScript, HTML, SCSS, Typescript, React Redux. </div>
                 </div>
                   {/* Center */}
                 <div className={styles.lineWrap}>
@@ -113,8 +113,8 @@ const About = () => {
                 </div>
                   {/* Right */}
                 <div className={styles.item}>
-                  <h3 className={styles.itemTitle}>Lorem</h3>
-                  <div className={styles.desc}>Lorem lorem lorem lorem Lorem lorem lorem lorem</div>
+                  <h3 className={styles.itemTitle}>React Phone store</h3>
+                  <div className={styles.desc}>React, JavaScript, HTML, SCSS, TypeScript, React Redux.</div>
                 </div>
               </div>
 
@@ -122,8 +122,8 @@ const About = () => {
               <div className={styles.listItem}>
                 {/* Left */}
                 <div className={styles.item}>
-                  <h3 className={styles.itemTitle}>Lorem</h3>
-                  <div className={styles.desc}>Lorem lorem lorem lorem Lorem lorem lorem lorem</div>
+                  <h3 className={styles.itemTitle}>Dia</h3>
+                  <div className={styles.desc}>HTML, JavaScript, SCSS. </div>
                 </div>
                   {/* Center */}
                 <div className={styles.lineWrap}>
@@ -133,6 +133,57 @@ const About = () => {
                 </div>
                   {/* Right */}
                 <div className={styles.item}></div>
+              </div>
+
+              {/* four item */}
+              <div className={styles.listItem}>
+                {/* Left */}
+                <div className={styles.item}></div>
+                  {/* Center */}
+                <div className={styles.lineWrap}>
+                  <div className={styles.line}>
+                    <div className={styles.circle}></div>
+                  </div>
+                </div>
+                  {/* Right */}
+                <div className={styles.item}>
+                  <h3 className={styles.itemTitle}>Miami</h3>
+                  <div className={styles.desc}>HTML, JavaScript, SCSS.</div>
+                </div>
+              </div>
+              
+              {/* five item */}
+              <div className={styles.listItem}>
+                {/* Left */}
+                <div className={styles.item}>
+                  <h3 className={styles.itemTitle}>Game 2048</h3>
+                  <div className={styles.desc}>HTML, JavaScript, SCSS.</div>
+                </div>
+                  {/* Center */}
+                <div className={styles.lineWrap}>
+                  <div className={styles.line}>
+                    <div className={styles.circle}></div>
+                  </div>
+                </div>
+                  {/* Right */}
+                <div className={styles.item}></div>
+              </div>
+     
+              {/* six item */}
+              <div className={styles.listItem}>
+                {/* Left */}
+                <div className={styles.item}></div>
+                  {/* Center */}
+                <div className={styles.lineWrap}>
+                  <div className={styles.line}>
+                    <div className={styles.circle}></div>
+                  </div>
+                </div>
+                  {/* Right */}
+                <div className={styles.item}>
+                  <h3 className={styles.itemTitle}>React todo app</h3>
+                  <div className={styles.desc}>HTML, JavaScript, CSS, TypeScript</div>
+                </div>
               </div>
             </motion.div>
           </div>

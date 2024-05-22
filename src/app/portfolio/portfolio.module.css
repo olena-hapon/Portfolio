@@ -52,12 +52,13 @@
 
 .itemContainer {
   display: flex;
-  height: 100%;
+  height: 100vh;
   width: 100vw;
   justify-content: center;
   align-items: center;
   background: linear-gradient(rgb(224 187 226), rgb(198, 141, 201));
-  padding-block-end: 20px;
+  padding-block-end: 40px;
+  padding-block-start: 40px;
 }
 
 .item {
@@ -95,6 +96,7 @@
   width: 600px;
   line-height: 1.5;
   font-size: 16px;
+  text-align: justify;
 
   @media(max-width: 640px) {
     width: 400px;
@@ -166,7 +168,7 @@
   left: 0;
   right: 0;
   margin: auto;
-  background-color: #78348d;
+  background-color: #b46bca;
   color: #fff;
   border-radius: 50%;
   display: flex;
