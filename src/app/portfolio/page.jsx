@@ -80,9 +80,12 @@ console.log(x)
                 <div className={styles.item}>
                   <h1 className={styles.title}>{item.title}</h1>
                   <div className={styles.imgContainer} style={{position: 'relative'}}>
-                    <Image src={item.img} alt='project' sizes='100%'
-                    style={{ objectFit: 'contain' }}
-                    fill />
+                    <Link href={item.link} target='blanc'>
+                      <Image src={item.img} alt='project' sizes='100%'
+                        style={{ objectFit: 'contain' }}
+                        fill
+                      />
+                    </Link>
                   </div>
                   <p className={styles.descriptions}>{item.desc}</p>
                   <Link href={item.link}>
