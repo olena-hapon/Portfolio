@@ -113,7 +113,8 @@
 
   @media(max-width: 460px) {
     width: 270px;
-    line-height: 1.2;
+    line-height: 1.3;
+    
   }
 }
 
